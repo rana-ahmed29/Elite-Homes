@@ -1,0 +1,145 @@
+/* hero section */
+
+
+@media (min-width: 992px) { 
+
+h1 {
+    font-size:60px;
+}
+}
+
+
+
+@media (min-width: 768px) {
+.section-title h2 {
+  font-size: 36px;
+
+}
+
+  }
+
+
+@media (min-width: 992px) { 
+    .section-title h2 {
+  font-size: 48px;
+
+}
+
+ }
+
+
+
+
+ @media screen and (min-width: 990px) {
+  .my-nav .nav-item .nav-link.active {
+    color: var(--main-color);
+    font-weight: 600;
+  }
+
+  .my-nav .nav-item .nav-link.active::before {
+    width: 100%;
+  }
+
+  .nav-item.dropdown .dropdown-menu {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    right: auto !important;
+    border: none;
+    overflow: visible;
+    max-height: none;
+    width: 1200px;
+  }
+  .my-nav .nav-item .nav-link {
+    position: relative;
+    padding-inline: 0;
+  }
+  .my-nav .nav-item .nav-link::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 5px;
+    left: 0;
+    background-color: var(--main-color);
+    width: 0;
+    transition: var(--main-transition);
+  }
+  .my-nav .nav-item:hover .nav-link::before {
+    font-weight: 600;
+    width: 100%;
+  }
+  .my-nav .nav-item:hover .nav-link {
+    color: var(--main-color);
+  }
+
+  .my-nav .dropdown .row h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .my-nav .row .any {
+    background-color: white;
+    padding: 0;
+  }
+
+  .my-nav .row .Featured {
+    background-color: transparent;
+  }
+
+  .my-nav .row .Featured:hover {
+    background-color: #f9fafb;
+  }
+
+  .my-nav .dropdown .row .image img {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+  }
+
+  .my-nav .dropdown .row .content h4 {
+    font-size: 14px;
+  }
+  .my-nav .dropdown .row .content p {
+    font-size: 14px;
+  }
+
+  .my-nav .dropdown .row .property p,
+  .my-nav .dropdown .row .property i {
+    font-size: 16px;
+    color: var(--third-text-color);
+    transition: var(--main-transition);
+  }
+
+  .my-nav .row .popular .overlaye {
+    width: 264px;
+    height: 80px;
+  }
+  .my-nav .row .popular img {
+    height: 80px;
+  }
+  .my-nav .row .popular .overlaye span.title {
+    font-size: 18px;
+  }
+
+  .my-nav .row .popular .overlaye span:last-of-type {
+    font-size: 14px;
+  }
+
+  .my-nav .resources .card h4 {
+    font-size: 18px;
+  }
+  .my-nav .resources .card p {
+    font-size: 16px;
+  }
+  .my-nav .resources .card span {
+    display: block;
+  }
+
+  .my-nav .resources .card .head-card i {
+    font-size: 20px;
+  }
+  .my-nav .resources .card {
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
